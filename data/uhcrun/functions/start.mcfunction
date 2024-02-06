@@ -1,26 +1,9 @@
-# Définir le mode de jeu
-defaultgamemode spectator
-gamemode survival @a
+# Indiqué que cela fonctionne
+title @a actionbar {"text":"Chargement de la zone (lancement imminent !)...","color":"green"}
 
-# Effets des joueurs
-effect give @a minecraft:speed infinite 2 true
-effect give @a minecraft:haste infinite 2 true
-effect give @a minecraft:night_vision infinite 0 true
-effect give @a minecraft:fire_resistance infinite 0 true
-effect give @a minecraft:saturation infinite 0 true
-
-# Gamerule
-gamerule fallDamage false
-gamerule doImmediateRespawn true
-gamerule naturalRegeneration true
-time set day
+# Effet pour éviter de faire bouger les joueurs
+effect give @a minecraft:blindness infinite 0 true
+effect give @a minecraft:slowness infinite 0 true
 
 # Répartition des joueurs sur la carte
 spreadplayers 0 0 100 1000 true @a
-
-# scoreboard de donnée
-scoreboard objectives add timersecond dummy
-
-# Timer Start
-schedule function sys:timer_second 1s replace
-schedule function sys:timer_minute 60s replace
