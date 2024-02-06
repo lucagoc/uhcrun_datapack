@@ -1,4 +1,3 @@
-kill @e[name="Temps restant:"]
 scoreboard objectives remove uhcrun
 effect clear @a
 time set day
