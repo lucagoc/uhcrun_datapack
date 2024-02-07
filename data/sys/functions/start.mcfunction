@@ -1,5 +1,4 @@
 # Définir le mode de jeu
-defaultgamemode spectator
 gamemode survival @a
 
 # Effets des joueurs

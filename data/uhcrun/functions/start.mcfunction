@@ -1,5 +1,7 @@
 # Indiqué que cela fonctionne
 title @a actionbar {"text":"Chargement de la zone (lancement imminent !)...","color":"green"}
+defaultgamemode spectator 
+#bloquer l'arrivée d'autres joueurs.
 
 # Effet pour éviter de faire bouger les joueurs
 effect give @a minecraft:blindness infinite 0 true
