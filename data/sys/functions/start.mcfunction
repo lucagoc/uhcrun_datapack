@@ -17,5 +17,5 @@ gamerule naturalRegeneration true
 time set day
 
 # Timer Start
-schedule function sys:timer_second 1s replace
-schedule function sys:timer_minute 60s replace
+schedule function sys:timer/second 1s replace
+schedule function sys:timer/minute 60s replace
