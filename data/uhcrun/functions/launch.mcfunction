@@ -33,12 +33,14 @@ gamemode adventure @a
 gamerule fallDamage false
 gamerule doPatrolSpawning false
 gamerule doInsomnia false
+gamerule announceAdvancements false
+difficulty hard
 clear @a
 effect give @a minecraft:saturation infinite 0 true
 
 # World limite
 worldborder center 0 0
-worldborder set 1500
+worldborder set 3000 0
 
 # Config des teams
 function sys:team_config
