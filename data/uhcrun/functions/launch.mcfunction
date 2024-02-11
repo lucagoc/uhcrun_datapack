@@ -20,6 +20,7 @@ fill 5 133 5 -5 133 -5 minecraft:air
 scoreboard objectives add timer dummy
 scoreboard objectives add death deathCount
 scoreboard objectives add players dummy
+scoreboard objectives add inZone dummy
 
 # Def - Temps restant
 scoreboard players set wait_time timer 60
