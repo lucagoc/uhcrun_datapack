@@ -1,7 +1,11 @@
-scoreboard objectives remove uhcrun
+scoreboard objectives remove timer
+scoreboard objectives remove death
+scoreboard objectives remove players
+
 effect clear @a
 time set day
-schedule clear sys:timer_tick
+schedule clear sys:timer
+schedule clear sys:daemon
 
 # Del des teams
 team remove red

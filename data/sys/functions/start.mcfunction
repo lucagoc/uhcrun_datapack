@@ -5,9 +5,10 @@ gamemode survival @a
 effect clear @a
 effect give @a minecraft:speed infinite 2 true
 effect give @a minecraft:haste infinite 2 true
-effect give @a minecraft:night_vision infinite 0 true
 effect give @a minecraft:fire_resistance infinite 0 true
-effect give @a minecraft:saturation infinite 0 true
+effect give lucagoc minecraft:water_breathing infinite 0 true
+#effect give @a minecraft:night_vision infinite 0 true
+#effect give @a minecraft:saturation infinite 0 true
 
 # Gamerule
 gamerule fallDamage false
@@ -16,5 +17,8 @@ gamerule naturalRegeneration true
 time set day
 
 # Timer Start
-schedule function sys:timer/second 1s replace
-schedule function sys:timer/minute 60s replace
+function sys:timer
+
+# Execution du daemon
+function sys:daemon
+function sys:daemon_prep

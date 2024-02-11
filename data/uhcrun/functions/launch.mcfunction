@@ -17,13 +17,13 @@ fill 5 133 5 -5 128 -5 minecraft:green_stained_glass hollow
 fill 5 133 5 -5 133 -5 minecraft:air
 
 # Définition des variables
-scoreboard objectives add uhcrun dummy
-scoreboard objectives setdisplay sidebar uhcrun
-scoreboard objectives modify uhcrun displayname "UHC RUN - REZZO"
+scoreboard objectives add timer dummy
+scoreboard objectives add death deathCount
+scoreboard objectives add players dummy
 
 # Def - Temps restant
-scoreboard players set Temps_restant_m uhcrun 0
-scoreboard players set Temps_restant_s uhcrun 0
+scoreboard players set minutes timer 20
+scoreboard players set seconds timer 0
 
 # TP et Monde
 setworldspawn 0 129 0

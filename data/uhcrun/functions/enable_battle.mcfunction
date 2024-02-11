@@ -5,26 +5,23 @@ gamemode adventure @a
 
 # Dispersion des joueurs
 worldborder set 2000 0
+title @a actionbar {"text":"Téléportation des joueurs...","color":"green"}
 spreadplayers 0 0 400 900 true @a
-
-scoreboard players set Temps_restant_m uhcrun 120
-scoreboard players set Temps_restant_s uhcrun 60
-# Déclarer la prochaine phase du jeu
 
 # Supprimer les effets
 effect clear @a
+gamemode survival @a
 
 # Gamerule
 gamerule naturalRegeneration false
 time set day
-# gamerule pvp true // Seulement en LAN
 
 worldborder set 40 1200
 # Le temps peut être défini ici. // WARNING Passer en argument plutôt ou faire une commande spécialisée
-
-# Timer
-scoreboard players set Temps_restant uhcrun 200
+scoreboard players set minutes timer 20
+scoreboard players set seconds timer 0
+# Déclarer la prochaine phase du jeu
 
 # Animation
 function animation:battle_start
-function animation:battle_ui
+schedule clear sys:daemon_prep
