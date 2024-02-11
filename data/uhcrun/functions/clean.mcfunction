@@ -6,6 +6,8 @@ effect clear @a
 time set day
 schedule clear sys:timer
 schedule clear sys:daemon
+schedule clear sys:daemon_prep
+schedule clear sys:wait_player
 
 # Del des teams
 team remove red

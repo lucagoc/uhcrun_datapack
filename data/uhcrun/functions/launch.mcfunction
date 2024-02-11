@@ -22,6 +22,7 @@ scoreboard objectives add death deathCount
 scoreboard objectives add players dummy
 
 # Def - Temps restant
+scoreboard players set wait_time timer 60
 scoreboard players set minutes timer 20
 scoreboard players set seconds timer 0
 
@@ -44,3 +45,4 @@ worldborder set 3000 0
 
 # Config des teams
 function sys:team_config
+function sys:wait_player
