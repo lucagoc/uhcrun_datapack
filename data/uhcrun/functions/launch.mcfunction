@@ -40,6 +40,11 @@ difficulty hard
 clear @a
 effect give @a minecraft:saturation infinite 0 true
 
+# Anti PVP
+team add lobby
+team modify lobby collisionRule never
+team modify lobby friendlyFire never
+
 # World limite
 worldborder center 0 0
 worldborder set 3000 0

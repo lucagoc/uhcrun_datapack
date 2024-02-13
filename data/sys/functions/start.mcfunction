@@ -1,5 +1,6 @@
 # Définir le mode de jeu
 gamemode survival @a
+team remove lobby
 
 # Effets des joueurs
 effect clear @a

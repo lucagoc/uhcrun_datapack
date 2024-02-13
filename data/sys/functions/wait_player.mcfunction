@@ -2,6 +2,9 @@
 execute store result score online players run tag @a add online
 tag @a remove online
 
+# AntiPVP
+team join lobby @a
+
 # Création du lobby temporaire
 fill 5 133 5 -5 128 -5 minecraft:green_stained_glass hollow
 fill 5 133 5 -5 133 -5 minecraft:air
