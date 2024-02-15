@@ -43,7 +43,7 @@ effect give @a minecraft:saturation infinite 0 true
 # Anti PVP
 team add lobby
 team modify lobby collisionRule never
-team modify lobby friendlyFire never
+team modify lobby friendlyFire false
 
 # World limite
 worldborder center 0 0
