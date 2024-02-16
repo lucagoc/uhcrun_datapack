@@ -12,8 +12,11 @@ effect give @a[scores={death=0}] minecraft:slowness infinite 100 true
 effect give @a[scores={death=0}] minecraft:invisibility infinite 0 true
 effect give @a[scores={death=0}] minecraft:weakness infinite 100 true
 
+# Au cas où ?
+schedule clear sys:wait_player
+
 # Répartition des joueurs sur la carte
-spreadplayers 0 0 400 1500 true @a[scores={death=0}]
+spreadplayers 0 0 400 1500 false @a[scores={death=0}]
 
 # Au cas où ?
 schedule clear sys:wait_player
