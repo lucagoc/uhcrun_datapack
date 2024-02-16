@@ -4,6 +4,7 @@ tag @a remove online
 
 # AntiPVP
 team join lobby @a
+scoreboard players set @a death 0
 
 # Création du lobby temporaire
 fill 5 133 5 -5 128 -5 minecraft:green_stained_glass hollow
