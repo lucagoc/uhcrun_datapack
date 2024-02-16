@@ -1,6 +1,8 @@
 scoreboard objectives remove timer
 scoreboard objectives remove death
 scoreboard objectives remove players
+scoreboard objectives remove init
+scoreboard objectives remove inZone
 
 effect clear @a
 time set day

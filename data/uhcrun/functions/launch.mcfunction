@@ -17,10 +17,14 @@ fill 5 133 5 -5 128 -5 minecraft:green_stained_glass hollow
 fill 5 133 5 -5 133 -5 minecraft:air
 
 # Définition des variables
+scoreboard objectives add init dummy
 scoreboard objectives add timer dummy
 scoreboard objectives add death deathCount
 scoreboard objectives add players dummy
 scoreboard objectives add inZone dummy
+
+# Définir la variable comme quoi le jeu est déjà init (utilisé pour le reload de enable_battle)
+scoreboard players set game init 1
 
 # Def - Temps restant
 scoreboard players set wait_time timer 60
