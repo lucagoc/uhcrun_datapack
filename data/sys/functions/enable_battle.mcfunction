@@ -1,6 +1,6 @@
 # Supprimer les effets
-effect clear @a
-gamemode survival @a
+effect clear @a[scores={death=0}]
+gamemode survival @a[scores={death=0}]
 
 # Gamerule
 gamerule naturalRegeneration false
