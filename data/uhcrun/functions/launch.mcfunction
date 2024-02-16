@@ -10,7 +10,7 @@ playsound minecraft:item.totem.use ambient @a 0 0 0 1000 0.5
 # Information dans le chat pour les / Tout les joueurs qui ne sont pas dans une équipe jouent en solo
 tellraw @a ["",{"selector":"@s"},{"text":" est le maitre de jeu. (Rezzpo ça marche pas) "}]
 tellraw @a ["",{"text":"Rejoignez une team avec /team join <red|blue|yellow|green|purple|aqua>"}]
-tellraw @a ["",{"text":"Quand tout le monde est prêt, le maître du jeu execute /function uhcrun:start"}]
+tellraw @a ["",{"text":"Quand tout le monde est prêt: /function uhcrun:start"}]
 
 # Création du lobby temporaire
 fill 5 133 5 -5 128 -5 minecraft:green_stained_glass hollow

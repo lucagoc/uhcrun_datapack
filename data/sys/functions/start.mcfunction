@@ -1,6 +1,8 @@
 # Définir le mode de jeu
 gamemode survival @a
-team remove lobby
+
+# Supprimer le lobby
+fill 5 133 5 -5 128 -5 minecraft:air
 
 # Effets des joueurs
 effect clear @a
