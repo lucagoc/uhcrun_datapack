@@ -27,8 +27,8 @@ scoreboard objectives add inZone dummy
 scoreboard players set game init 1
 
 # Def - Temps restant
-scoreboard players set wait_time timer 60
-scoreboard players set minutes timer 20
+scoreboard players set wait_time timer 120
+scoreboard players set minutes timer 25
 scoreboard players set seconds timer 0
 
 # TP et Monde
