@@ -5,6 +5,9 @@ gamemode survival @a[scores={death=0}]
 # Gamerule
 gamerule naturalRegeneration false
 gamerule fallDamage true
+execute in minecraft:the_nether run gamerule fallDamage true
+execute in minecraft:the_nether run gamerule naturalRegeneration false
+
 time set day
 team remove lobby
 

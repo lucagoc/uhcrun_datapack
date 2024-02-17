@@ -1,5 +1,3 @@
-time add 5t
-
 # Donne l'effet d'enchant pour la pioche en diams
 enchant @a[nbt={SelectedItem:{id:"minecraft:diamond_pickaxe"}}] minecraft:efficiency 5
 

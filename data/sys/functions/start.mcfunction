@@ -18,6 +18,10 @@ effect give @a[scores={death=0}] minecraft:resistance infinite 0 true
 gamerule fallDamage false
 gamerule doImmediateRespawn true
 gamerule naturalRegeneration true
+execute in minecraft:the_nether run gamerule fallDamage false
+execute in minecraft:the_nether run gamerule doImmediateRespawn true
+execute in minecraft:the_nether run gamerule naturalRegeneration true
+
 time set day
 weather clear 99999999999999999999999999999d
 
