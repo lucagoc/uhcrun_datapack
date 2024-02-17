@@ -11,6 +11,7 @@ effect give @a[scores={death=0}] minecraft:haste infinite 2 true
 effect give @a[scores={death=0}] minecraft:fire_resistance infinite 0 true
 effect give @a[scores={death=0}] minecraft:water_breathing infinite 0 true
 effect give @a[scores={death=0}] minecraft:night_vision infinite 0 true
+effect give @a[scores={death=0}] minecraft:resistance infinite 0 true
 #effect give @a[scores={death=0}] minecraft:saturation infinite 0 true
 
 # Gamerule
