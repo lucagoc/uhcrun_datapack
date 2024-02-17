@@ -19,6 +19,7 @@ gamerule fallDamage false
 gamerule doImmediateRespawn true
 gamerule naturalRegeneration true
 time set day
+weather clear 99999999999999999999999999999d
 
 # Timer Start
 function sys:timer

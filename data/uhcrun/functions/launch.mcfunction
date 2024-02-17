@@ -40,6 +40,8 @@ gamerule fallDamage false
 gamerule doPatrolSpawning false
 gamerule doInsomnia false
 gamerule announceAdvancements false
+gamerule doDaylightCycle false
+weather clear 999999999999999999999999d
 difficulty hard
 clear @a
 effect give @a minecraft:saturation infinite 0 true

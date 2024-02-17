@@ -4,9 +4,9 @@ effect give @a[scores={death=0}] minecraft:slowness infinite 100 true
 gamemode adventure @a[scores={death=0}]
 
 # Dispersion des joueurs
-worldborder set 2000 0
+worldborder set 1300 0
 title @a actionbar {"text":"Téléportation des joueurs...","color":"green"}
-spreadplayers 0 0 400 900 false @a[scores={death=0}]
+spreadplayers 0 0 300 600 false @a[scores={death=0}]
 
 # Désactivation des datapacks
 datapack disable "file/treecapitor"
